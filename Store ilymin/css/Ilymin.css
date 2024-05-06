@@ -1,0 +1,48 @@
+body{
+    font-family: "Roboto",sans-serif;
+   
+}
+:root{
+    --dark-color:#19283f;
+    --green-color:#33d1cc;
+    --red-color:#ff3150;
+    --yellow-color:#ffc400;
+    --backround-color:#f0f9ff;
+}
+.navbar{
+    background-color:var(--dark-color);
+}
+.navbar .navbar-toggler{
+    color: white;
+    border: white;
+}
+.navbar .navbar-toggler:focus{
+    box-shadow: none;
+}
+.navbar .navbar-brand{
+    color: var(--green-color);
+}
+.navbar .navbar-nav .nav-link{
+    color: white;
+    transition: 1s;
+}
+.navbar .navbar-nav .nav-link.active{
+    color: var(--green-color);
+
+}
+.navbar .navbar-nav .nav-link:hover{
+    color: var(--green-color);
+}
+.navbar .searche{
+    border-left: 1.3px solid  var(--green-color);
+}
+/* start landing */
+
+ .main-btn{
+    background-color:var(--green-color);
+    border: none;
+    color:white ;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+
+ }
